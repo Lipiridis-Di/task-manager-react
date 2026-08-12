@@ -1,0 +1,11 @@
+.addTaskForm { 
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.addTaskForm input[type="text"] {
+  flex: 1;
+  
+}

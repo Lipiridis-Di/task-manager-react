@@ -1,0 +1,54 @@
+.taskItem {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    background: var(--card-bg);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+    margin-bottom: 10px;
+}
+
+.text {
+    flex: 1;
+}
+
+.completedText {
+    flex: 1;
+    text-decoration: line-through;
+    color: var(--muted-text);
+}
+
+.priority {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 999px;
+}
+
+.priorityHigh {
+    background: rgba(220, 38, 38, 0.12);
+    color: #dc2626;
+}
+
+.priorityMedium {
+    background: rgba(217, 119, 6, 0.12);
+    color: #d97706;
+}
+
+.priorityLow {
+    background: rgba(22, 163, 74, 0.12);
+    color: #16a34a;
+}
+
+.dragHandle {
+    cursor: grab;
+    font-size: 1.2rem;
+    color: var(--muted-text);
+}
+
+.dragHandle:active {
+    cursor: grabbing;
+}

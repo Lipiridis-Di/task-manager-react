@@ -1,0 +1,62 @@
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #1a1a1a;
+    --card-bg: #ffffff;
+    --border-color: #dddddd;
+    --accent-color: #007bff;
+    --muted-text: #666666;
+
+    font: 18px/145% system-ui, 'Segoe UI', Roboto, sans-serif;
+    color-scheme: light dark;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme='dark'] {
+    --bg-color: #1a1a1a;
+    --text-color: #f0f0f0;
+    --card-bg: #2a2a2a;
+    --border-color: #444444;
+    --accent-color: #4da3ff;
+    --muted-text: #aaaaaa;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+ /* глобальные стили для input, select и button */
+
+input[type='text'],
+input[type='number'],
+select {
+    background: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button {
+    background: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+}

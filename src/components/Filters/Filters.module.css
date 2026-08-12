@@ -1,0 +1,25 @@
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px;
+    background-color: var(--card-bg);
+    border-radius: 999px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 20px;
+    width: fit-content;
+}
+
+.filters button {
+    border: none;
+    border-radius: 999px;
+    padding: 6px 16px;
+}
+
+.active {
+    font-weight: 600;
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
