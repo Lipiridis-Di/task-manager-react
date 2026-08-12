@@ -1,5 +1,7 @@
 # Task Manager (React)
 
+🔗 **[Демо на GitHub Pages](https://lipiridis-di.github.io/task-manager-react/)**
+
 Пересборка учебного проекта [Task Manager](https://github.com/Lipiridis-Di/task-manager) с чистого JavaScript на React — с сохранением всей функциональности и добавлением drag-and-drop переупорядочивания и инлайн-редактирования задач.
 
 ## Функционал
